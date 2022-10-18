@@ -135,6 +135,9 @@ export default async function handler(req, res) {
 }
 ```
 
+
+> Note: You might need to set getStaticPaths return value to `falback: "blocking"`. In case new pages are going to be generated.
+
 [View our demo](https://on-demand-isr.vercel.app) to see on-demand revalidation in action and provide feedback.
 
 ### Testing on-Demand ISR during development
